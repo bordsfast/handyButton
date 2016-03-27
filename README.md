@@ -36,5 +36,17 @@
 ```objc
   [manuallyAddedButton setCornerRadius:37.5]
 ```
+
+###Changing theme color on selected state and non selected state
+```objc
+  [manuallyAddedButton setNonSelectedBackgroundColor:[UIColor redColor]];
+  [manuallyAddedButton setSelectedBackgroundColor:[UIColor greenColor]];
+    
+  [manuallyAddedButton setNonSelectedTextColor:[UIColor whiteColor]];
+  [manuallyAddedButton setSelectedTextColor:[UIColor redColor]];
+```
+
+  
+  
   
 
