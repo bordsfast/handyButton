@@ -153,6 +153,7 @@ IB_DESIGNABLE
     } else if (buttonWidth == buttonHeight) {
         //it should be a circle
         //and height and width is equal so do nothing
+        self.cornerRadius = buttonWidth / 2;
     } else if (buttonWidth > buttonHeight) {
         //it should be a circle
         //but the width is greater than the height
